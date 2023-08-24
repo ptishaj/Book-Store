@@ -1,0 +1,57 @@
+/* AddBook.css */
+
+.AddBook {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.AddBook h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.AddBook label {
+  font-weight: bold;
+}
+
+.AddBook input[type="text"],
+.AddBook input[type="number"],
+.AddBook textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AddBook textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.AddBook button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.AddBook button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 480px) {
+  .AddBook {
+    max-width: 100%;
+  }
+}

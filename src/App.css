@@ -1,0 +1,98 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the navigation links */
+.App a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.App a:hover {
+  color: #0056b3;
+}
+
+/* Style for the active link */
+.App a.active {
+  font-weight: bold;
+}
+
+/* Style for the header section */
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #050505;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the navigation links container */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the logo image */
+.header-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 0%; /* Rounded border for circular logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the search bar container */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the search input */
+.search-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Style for the search button */
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #eef1f5;
+  border-color: #ebeef1;
+}
+
+.cart-icon {
+  margin-left: 10px; 
+}
+
+.cart-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Set the cart icon color to white */
+.cart-icon svg {
+  fill: white;
+}
+
+/* Style for the navigation links container on the right side */
+.header-right {
+  display: flex;
+  align-items: center;
+}

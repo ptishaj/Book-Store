@@ -1,0 +1,34 @@
+/* CSS for the Home component */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Styles for the container */
+/* Styles for the container */
+.AboutContainer {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+
+  /* Additional styles for centering the container */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Styles for the content inside the container */
+.content {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the button */
+.button-center {
+  margin: auto; /* This centers the button horizontally within its parent */
+}

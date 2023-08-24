@@ -1,0 +1,114 @@
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form > * {
+  margin-bottom: 15px;
+}
+
+/* Button */
+.form-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Toastify Styles (you can customize these too) */
+.Toastify__toast {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form > * {
+  margin-bottom: 15px;
+}
+
+/* Button */
+.form-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Toastify Styles (you can customize these too) */
+.Toastify__toast {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
